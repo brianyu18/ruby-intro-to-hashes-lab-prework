@@ -33,10 +33,10 @@ def monopoly_with_third_tier
   monopoly[:railroads][:rent_in_dollars][:two_pieces_owned] = 50
   monopoly[:railroads][:rent_in_dollars][:three_pieces_owned] = 100
   monopoly[:railroads][:rent_in_dollars][:four_pieces_owned] = 200
-  monopoly[:railroads][:name][:reading_railroad] = {}
-  monopoly[:railroads][:name][:pennsylvania_railroad] = {}
-  monopoly[:railroads][:name][:b_and_o_railroad] = {}
-  monopoly[:railroads][:name][:shortline_railroad] = {}
+  monopoly[:railroads][:names][:reading_railroad] = {}
+  monopoly[:railroads][:names][:pennsylvania_railroad] = {}
+  monopoly[:railroads][:names][:b_and_o_railroad] = {}
+  monopoly[:railroads][:names][:shortline_railroad] = {}
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 	monopoly	
 end
